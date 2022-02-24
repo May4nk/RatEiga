@@ -30,7 +30,7 @@ ratEiga is react app(alike imdb) to rate upcoming or current movies.
 
 * home
 
-![Screenshot from 2021-12-01 01-37-42](https://user-images.githubusercontent.com/78518826/144119896-a143eaa9-3153-4385-a39f-00a65668bd91.png)
+![home](https://user-images.githubusercontent.com/78518826/155606761-0da5f44b-87de-411a-bbc1-92702ee8354d.png)
 
 * Create
 
