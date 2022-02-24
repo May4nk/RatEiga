@@ -1,0 +1,41 @@
+/* components/auth.css */
+.box{
+   border: 2px solid #252c31;
+   min-height: 17em;
+   width: 23em;
+   margin: 4em auto;
+   border-radius: 3%;
+   padding-top: 1em;
+}
+
+#password{
+  border: 1px solid white;
+  height: 2.0em;
+  width: 13.3em;
+  color: white;
+  border-radius: 7px;
+  padding: 0px 9px;
+  background: #1c1b1b;
+  margin-bottom: 0em;
+}
+
+#signup{
+  width: 16em;
+  margin: 0.3em;
+  height: 2.3em;
+  font-weight: 700;
+}
+
+.switch{
+ cursor: pointer; 
+ color: #424242;
+ margin-top: 1em;
+}
+
+.switch:hover{
+  color: white;
+}
+
+
+
+

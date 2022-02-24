@@ -1,0 +1,140 @@
+/* App.css */
+body{
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+.material-icons{
+  cursor: pointer;
+}
+
+nav{
+  position: fixed;
+  z-index: 100;
+}
+
+.name{
+  margin-top: -2.7em;
+  margin-left: 3em;
+  font-size: 2em;
+}
+
+.motto {
+  margin-top: -2.7em;
+  margin-left: 1.9em;
+  color: black;
+  font-size: 13px;
+  font-weight: 530;
+}
+.loginbtn{
+  border: 2px solid black;
+  height: 2.7em;
+  width: 5.3em;
+  margin-top: 0.7em;
+}
+
+.logintxt{
+  margin-top: -0.7em;
+}
+
+.icn{
+  height:2.3em;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+.content{
+  overflow: auto;
+  margin-top: 7em;
+}
+
+.comp{
+  margin-top: -5.7em;
+  font-weight: 530;
+}
+
+@media (max-width: 400px) {
+
+        .motto{
+          margin-left: 0.3em;
+          font-size: 11px;
+          margin-top: -4.3em;
+          font-weight: 530;
+        }  
+
+        .name{
+          display: none;
+        }
+
+        .actors{
+          display: none;
+        }
+
+        .add{
+          margin-right: 0.5em;
+          margin-top: 0.3em;
+          font-weight: 900;
+        }
+
+}
+
+@media screen and (max-width: 601px) and (min-width: 400px) {
+        .name{
+          margin-top: -3.5em;
+          margin-left: 15%;
+          font-size: 1.5em;
+        }
+
+        .motto{
+          margin-left: 0.9em;
+          font-size: 11px;
+          margin-top: -2.7em;
+          font-weight: 530;
+        }  
+
+
+        .actors, .producers{
+          margin-top: 0.5em;
+          font-weight: 510;
+        }
+
+        .add{
+          margin-right: 0.5em;
+          margin-top: 0.3em;
+          font-weight: 900;
+        }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+
+        .motto{
+          margin-left: 0.9em;
+          font-size: 11px;
+          margin-top: -2.9em;
+          font-weight: 530;
+        }  
+
+        .name{
+          margin-top: -3em;
+          margin-left: 3em;
+          font-size: 1.9em;
+        }
+
+        .actors, .producers{
+          margin-top: 0.5em;
+          font-weight: 510;
+        }
+
+        .add{
+          margin-right: 0.5em;
+          margin-top: 0.3em;
+          font-weight: 900;
+        }
+
+        .comp{
+          margin-top: -6.7em;
+        }
+
+}
